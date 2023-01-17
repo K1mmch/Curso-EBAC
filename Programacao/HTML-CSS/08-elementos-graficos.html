@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/graficos.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Elementos gráficos</h1>
+
+    <div id="grafico-01">
+        <img src="./Imagens/coffee-square.jpg" alt="Café">
+    </div>
+
+    <div id="grafico-02">
+ 
+    </div>
+
+    <div id="imagem-vetorial">
+        <img src="./Imagens/coffee.svg" alt="Café">
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <script>
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#00ff99"
+        ctx.fillRect(80, 80, 80, 80);
+    </script>
+
+    </section>
+</body>
+</html>

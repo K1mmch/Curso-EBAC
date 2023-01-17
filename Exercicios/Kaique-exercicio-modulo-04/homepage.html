@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<title>HTML - Kaique Moreira</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=devise-width, initial-scale=1">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-image: url("https://i.pinimg.com/originals/db/3b/47/db3b47abab33b20f509f9d181ed66541.png");
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: black;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 25%;
+			   
+			  background: #FFFFFF;
+			  padding: 100px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 50%;
+			  background-color: #FFFFFF;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #000000;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-image: url("https://i.pinimg.com/originals/db/3b/47/db3b47abab33b20f509f9d181ed66541.png");
+			  padding: 100px;
+			  text-align: center;
+			  color: black;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front-end - HTML</h2>
+		</header>
+
+		<section>
+			<nav>
+			<h3>Aulas</h3>
+				<ul><b>
+					<li><a href="./01-introducao.html">Introdução</a></li>
+					<li><a href="./02-listas-e-links.html">Listas e Links</a></li>
+					<li><a href="./03-formatacao-de-texto-html.html">Formatação de texto HTML</a></li>
+					<li><a href="./04-tabelas.html">Tabelas</a></li>
+					<li><a href="./05-layouts.html">Layouts</a></li>
+					<li><a href="./06-formularios.html">Formulários</a></li>
+				</ul></b>
+
+				<h3>Redes Sociais</h3>
+				<ul><b>
+					<li><a href="https://www.linkedin.com/in/kaique-moreira-a674a6205/" target="blank">LinkedIn</a></li>
+					<li><a href="https://www.instagram.com/_ka1qu3/" target="blank">Instagram</a></li>
+				</ul></b>
+			</nav>
+
+			<article align="center">
+
+				<img width="200" src="https://media-exp1.licdn.com/dms/image/C4D03AQGbbGEDhhasSg/profile-displayphoto-shrink_200_200/0/1652441788381?e=1661990400&amp;v=beta&amp;t=JbPA_sZQV2CUinQSWbf1BBA68SN-C_SmfZcQ6aqjNIw" height="200" alt="Kaique Moreira">
+
+				<h2>Olá, meu nome é Kaique, prazer!</h2>
+
+				<p>Tenho 23 anos, e sou assistente de e-commerce na <a href="https://www.mundialcalcados.com.br/" target="blank">Mundial Calçados</a> há 4 anos, com esses anos de experiencia pude ver quão importante é o trabalho de um Dev Front-end para o site.</p>
+
+				<p>Utilizamos uma plataforma, mas mesmo com todo o suporte que uma plataforma pode oferecer, o trabalho do Front-end ainda assim é extremamente indispensável, seja para pequenas alterações de funcionalidades dentro do site ou até alterações maiores como layouts e interfaces.</p>
+
+				<p>Comecei o curso para entender mais sobre linguagens e todo um trabalho que um dev pode exercer, pretendo trabalhar exclusivamente com isso em um futuro próximo.</p>
+
+			</article>
+
+		</section>
+
+		<footer>
+			<p><b>Desenvolvido por Kaique Moreira</b></p>
+		</footer>
+
+	</body>
+</html>

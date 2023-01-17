@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=devise-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href=".\CSS\style.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Curso Front-end - HTML</h1>
+		</header>
+
+		<section>
+			<nav>
+				<h3 class="menu-color">Aulas</h3>
+				<ul><b>
+					<li><a href="./01-introducao.html">Introdução</a></li>
+					<li><a href="./02-listas-e-links.html">Listas e Links</a></li>
+					<li><a href="./03-formatacao-de-texto-html.html">Formatação de texto HTML</a></li>
+					<li><a href="./04-tabelas.html">Tabelas</a></li>
+					<li><a href="./05-layouts.html">Layouts</a></li>
+					<li><a href="./06-formularios.html">Formulários</a></li>
+				</ul></b>
+			</nav>
+
+			<article>
+
+				<h2>Contato</h2>
+
+				<p>Preencha os campos abaixo</p>
+
+				<form method="post">
+					
+					<div>
+						<label for="nome">Nome</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div>
+						<label for="email">E-mail</label><br>
+						<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem</label><br>
+						<textarea type="mensagem"name="mensagem" id="mensagem" rows="5" placeholder=""></textarea>
+					</div>
+
+					<div>
+						<p>
+							<label>Quais linguagens você sabe?</label>
+							<input type="radio" name="linguagens" value="html"> HTML
+							<input type="radio" name="linguagens" value="css"> CSS
+							<input type="radio" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Quais linguagens você prefere?</label>
+							<input type="checkbox" name="linguagens" value="html"> HTML
+							<input type="checkbox" name="linguagens" value="css"> CSS
+							<input type="checkbox" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Qual a sua cor favorita?</label>
+							<select>
+								<option value="azul">Azul</option>
+								<option value="verde" selected>Verde</option>
+								<option value="vermelho">Vermelho</option>
+							</select>
+						</p>						
+					</div>
+
+					<div class="botao1">
+						<input type="submit">
+					</div>
+
+				</form>
+
+			</article>
+
+		</section>
+
+		<footer>
+			<p><b>Desenvolvido por Kaique Moreira</b></p>
+		</footer>
+
+	</body>
+</html>

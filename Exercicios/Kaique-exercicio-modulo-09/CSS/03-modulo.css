@@ -1,0 +1,22 @@
+/* Importando CSS de Tabelas */
+
+@import url('02-tabelas.css');
+
+/*
+
+	Combinadores
+
+	(espaço)
+	(>) combinador de seletores filhos
+	(+) combinador de elementos irmãos adjacentes que vem na sequência
+	(~) combinador de elementos irmãos geral / após elemento de referência
+
+*/
+
+article p {
+	margin-top: 0;
+}
+
+label {
+	margin-bottom: 10px;
+}

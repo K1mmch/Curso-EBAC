@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+	font-size: 90%;
+ } 
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(../imagens/pattern.png);
+}
+
+h1, h2, li {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+.menu-color { /* . é para class */
+	color: #66F;
+
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+#mundial-calcados { /* # é para id= */
+	color: #0811bfs;
+}
+
+form div {
+	background: #ededed;
+	border: 1px solid #000000;
+	margin: 20px;
+	padding: 10px;
+}
+
+[type="text"], [type="email"], textarea, label {
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+li {
+	margin-bottom: 5px;
+	border-bottom: 1px solid #66F;
+}
+
+a {
+	font-weight: bold;
+}
+
+label {
+	margin-bottom: .1rem;
+	font-size: 1rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #66F;
+}
+
+input {
+	padding: 1rem;
+}
+
+.botao1 {
+	background: none;
+	border: none;
+	margin: none;
+	padding: none;
+}
+	
+header {
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: black;
+	border: 1px solid #000;
+}
+
+nav {
+	float: left;
+	width: 20%;
+	background: #fff;
+	padding: 30px;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	border: px solid #000;
+}
+
+article {
+	float: left;
+	padding: 20px;
+	width: 80%;
+	background-color: #fff;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+section::after {
+	background: #ccc;
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	background: rgb(255, 255, 255, 0.40);
+	padding: 20px;
+	font-size: 1.3em;
+	text-align: center;
+	color: #000;
+}
+
+@media (max-width: 600px) {
+	nav, article {
+		width: 100%;
+		height: auto;
+	}
+}
