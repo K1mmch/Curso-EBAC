@@ -16,7 +16,7 @@ body {
 .container {
     display: block;
     float: left;
-    width: 100%;
+    max-width: 1198px;
     padding: 20px;
     margin: 0 auto;
 }
@@ -59,6 +59,11 @@ h4 {
 p {
     margin-bottom: 15px;
     line-height: 1.2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 ol {
@@ -116,15 +121,47 @@ footer {
     float: left;
     width: 100%;
     background-color: #254159;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 footer p {
     color: #ffffff;
     font-size: 1,6rem;
+    margin-bottom: 0px;
 }
 
 footer small {
     font-size: 80%;
     display: block;
+}
+
+.cognito {
+    height: 400px !important;
+    overflow: hidden !important;
+}
+
+#tenho-interesse {
+    background-color: #f0f0f0;
+    width: 100%;
+    padding-left: 40px;
+}
+
+#tenho-interesse form, .cog-form__container, :root:root:root:root:root .cog-form__container {
+    background-color: #f0f0f0 !important;
+}
+
+#tenho-interesse html .cog-label, :root:root:root:root:root .cog-label, html .cog-cognito--styled .cog-header h1, :root:root:root:root:root .cog-cognito--styled .cog-header h1 {
+    color: #254159 !important;
+}
+
+@media (max-width: 600px) {
+    section nav,
+    section article {
+        width: 100%;
+    }  
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 }
