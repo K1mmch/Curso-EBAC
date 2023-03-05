@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
@@ -16,6 +20,7 @@ body {
 .container {
     display: block;
     float: left;
+    width: 100%;
     max-width: 1198px;
     padding: 20px;
     margin: 0 auto;
@@ -143,7 +148,6 @@ footer small {
 #tenho-interesse {
     background-color: #f0f0f0;
     width: 100%;
-    padding-left: 40px;
 }
 
 #tenho-interesse form, .cog-form__container, :root:root:root:root:root .cog-form__container {
@@ -156,12 +160,9 @@ footer small {
 
 @media (max-width: 600px) {
     section nav,
-    section article {
+    section article, nav li {
         width: 100%;
-    }  
-
-    .container {
-        padding-left: 1%;
-        padding-right: 1%;
+        margin-left: 5px;
+        margin-right: 10px;
     }
 }
