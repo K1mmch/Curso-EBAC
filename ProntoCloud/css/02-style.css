@@ -159,15 +159,6 @@ footer small {
     color: #254159 !important;
 }
 
-@media (max-width: 600px) {
-    section nav,
-    section article, nav li {
-        width: 100%;
-        margin-left: 5px;
-        margin-right: 10px;
-    }
-}
-
 #banner {
     background-image: url(../images/banner.png);
     background-repeat: no-repeat;
@@ -249,4 +240,27 @@ dd {
     margin-left: 20px;
     margin-bottom: 20px;
     font-size: 1.6rem;
+}
+
+@media (max-width: 600px) {
+    section nav,
+    section article, nav li {
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    #saiba-mais p,
+    #saiba-mais img{
+        width: 100%;
+    }
+    .legenda {
+        margin-bottom: 2rem;
+    }
+    .legenda-container {
+        width: 100%;
+        margin: 0vw 0vw 0 0;
+    }
+    .container {
+        padding: 10px 20px;
+    }
 }
