@@ -250,3 +250,13 @@ dd {
     margin-bottom: 20px;
     font-size: 1.6rem;
 }
+
+@media (max-width: 600px) {
+    #saiba-mais p,
+    #saiba-mais img{
+        width: 100%;
+    }
+    .legenda-container {
+        width: 100%;
+    }
+}
