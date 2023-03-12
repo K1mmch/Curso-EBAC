@@ -13,16 +13,16 @@ body {
 
 .main-container {
     display: block;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
 }
 
 .container {
     display: block;
     float: left;
-    width: 100%;
-    max-width: 1198px;
-    padding: 20px;
+    width: 98%;
+    max-width: 98%;
+    padding: 20px 60px;
     margin: 0 auto;
 }
 
@@ -31,7 +31,6 @@ header {
     float: left;
     width: 100%;
     background-color: #FFF;
-    padding: 20px;
     border-bottom: 1px solid #254159;
 }
 
@@ -86,6 +85,7 @@ section {
     float: left;
     width: 100%;
     font-size: 1.5rem; /* equivalente a 15px */
+    padding: 20px 0;
 }
 
 section nav {
@@ -123,15 +123,14 @@ section article {
 
 footer {
     display: block;
+    font-size: 1.2rem;
     float: left;
     width: 100%;
     background-color: #254159;
-    padding: 20px 40px;
 }
 
 footer p {
     color: #ffffff;
-    font-size: 1,6rem;
     margin-bottom: 0px;
 }
 
@@ -143,15 +142,17 @@ footer small {
 .cognito {
     height: 400px !important;
     overflow: hidden !important;
+    float: center;
 }
 
 #tenho-interesse {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     width: 100%;
+    max-width: 1198px;
 }
 
 #tenho-interesse form, .cog-form__container, :root:root:root:root:root .cog-form__container {
-    background-color: #f0f0f0 !important;
+    background-color: #ffffff !important;
 }
 
 #tenho-interesse html .cog-label, :root:root:root:root:root .cog-label, html .cog-cognito--styled .cog-header h1, :root:root:root:root:root .cog-cognito--styled .cog-header h1 {
@@ -165,4 +166,87 @@ footer small {
         margin-left: 5px;
         margin-right: 10px;
     }
+}
+
+#banner {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60vw;
+}
+
+.legenda-container {
+    width: 30vw;
+    float: right;
+    margin: 10vw 10vw 0 0;
+}
+
+.legenda {
+    background-color: rgb(240, 240, 240, .6);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+.legenda h5,
+.legenda h4 {
+    color: #254159;
+    line-height: 1.5;
+}
+
+.button-cta {
+    border-radius: 25px;
+    display: inline;
+    background-color: orangered;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 4px #454545;
+    padding: 10px 15px;
+    width: auto;
+    text-decoration: none;
+    font-weight: 300;
+    float: left;
+    margin-left: 25px;
+}
+
+#saiba-mais {
+    background: #f0f0f0;
+}
+
+#saiba-mais p,
+#saiba-mais img{
+    width: 50%;
+    display: block;
+    float: left;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+#saiba-mais p {
+    margin-top: 20px;
+}
+
+#duvidas-frequentes {
+    background: #9cb3c7;
+    line-height: 1.5;
+}
+
+dl {
+    margin: 20px 0;
+}
+
+dt {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #254159;
+}
+
+dd {
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
 }
